@@ -1,0 +1,50 @@
+
+@font-face {
+   font-family: [Playfair Display];
+   src: url(https://fonts.google.com/share?selection.family=Playfair+Display:ital,wght@0,400..900;1,400..900);
+}
+*{
+    background-color: #f8e0f4;
+    font-family: Playfair Display;
+}
+body{
+    background-color:#f8c9f0 ;
+    color: black;
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 14px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.notas{
+    height: 100px;
+    width: 200px;
+    transform: rotate(-3deg);
+    overflow: auto; 
+    border: 2px solid black;   
+    margin-bottom: 5px; 
+    box-shadow: 11pc 11px 0px -px rgb(138, 50, 50);    
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin: 2px;
+}
+.imagem-spotify{
+  height: 100px;
+  width: 190px;
+  border: 5xp;
+  border-color: white;
+}
+.bocchi{    
+    margin-left: 10px;
+    height: 100px;
+    width: 180px;
+    border: 2px;
+    border-color: black;
+}
