@@ -20,20 +20,34 @@ body{
     display: flex;
     justify-content: center;
 }
+.notep{
+    background-color: #217b52;
+    color: white;
+}
 .notas{
+    background-color: #217b52;
+    margin-right: 20px;
     height: 100px;
     width: 200px;
     transform: rotate(-3deg);
     overflow: auto; 
     border: 2px solid black;   
     margin-bottom: 5px; 
-    box-shadow: 11pc 11px 0px -px rgb(138, 50, 50);    
+    box-shadow: 11pc 11px 0px -px rgb(204, 20, 20);    
 }
 
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
     margin: 2px;
+}
+.pug{
+    height: 99px;
+    width: 99px;
+    border: 2px solid black;   
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 5px;
 }
 .imagem-spotify{
   height: 100px;
@@ -43,8 +57,48 @@ img {
 }
 .bocchi{    
     margin-left: 10px;
-    height: 100px;
-    width: 180px;
-    border: 2px;
-    border-color: black;
+    height: 8%;
+    width: 15%;
+}
+.lr{
+     height: 8%;
+    width: 7%;
+    border: 2px solid rgb(77, 77, 77);   
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    transform: rotate(3deg);
+}
+.bigcube{
+    position: absolute;
+    height: 78%;
+    width: 58%;
+    background-color: #217b52;
+    border-radius: 15px;
+    box-shadow: 15px 10px #0d442b;
+}
+.littlecube{
+    background-color: #217b52;
+    margin-top: 7%;
+    justify-content: center;
+    width: 23%;
+    height: 70%;
+    border-radius: 10px;
+}
+.bot{
+    height: 30%;
+    width: 60%;
+    margin-left: 30%;
+    margin-top: 11%;
+    border-radius: 10%;
+}
+.mediumcube{
+    height: 87%;
+    width: 63%;
+    background-color: #7ed957;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -47%;
+    box-shadow: 8px 5px #0d442b;
 }
