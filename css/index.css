@@ -102,3 +102,86 @@ img {
     margin-top: -47%;
     box-shadow: 8px 5px #0d442b;
 }
+.little:nth-of-type(1) {
+    left: 10%;
+    animation-delay: 2.5s, 1s;
+}
+.little:nth-of-type(2) {
+    left: 20%;
+    animation-delay: 1s, 6s;
+}
+.little:nth-of-type(3) {
+    left: 50%;
+    animation-delay: 8s, 4s;
+}
+.little:nth-of-type(4) {
+    left: 40%;
+    animation-delay: 3s, 5s;
+}
+.little:nth-of-type(5) {
+    left: 50%;
+    animation-delay: 2.5s, 1s;
+}
+.little:nth-of-type(6) {
+    left: 60%;
+    animation-delay: 4s, 1s;
+}
+.little:nth-of-type(7) {
+    left: 70%;
+    animation-delay: 7s, 3s;
+}
+.little:nth-of-type(8) {
+    left: 80%;
+    animation-delay: 5s, 8s;
+}
+.little:nth-of-type(9) {
+    left: 90%;
+    animation-delay: 3s, 7s;
+}
+.little:nth-of-type(10) {
+    left: 100%;
+    animation-delay: 5s, 1s;
+}
+
+
+.little {
+    position: fixed;
+    z-index: 9999;
+    user-select: none;
+    cursor: default;
+    animation-name: littles-fall, littles-shake;
+    animation-duration: 10s, 3s;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-play-state: running, running;
+}
+.little {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial;
+    text-shadow: 0 0 1px #fff;
+    background-color: transparent;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+@keyframes littles-fall{
+    0%{
+        top: -10%;
+    }
+    100%{
+        top: 100%;
+    }
+}
+@keyframes littles-shake{
+    0% {
+        transform: translateX(0px);
+    }
+    50% { 
+        transform: translateX(80px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
