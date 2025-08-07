@@ -142,7 +142,10 @@ img {
     left: 100%;
     animation-delay: 5s, 1s;
 }
-
+.littles{
+    position: relative;
+    margin-top: -190px;
+}
 
 .little {
     position: fixed;
